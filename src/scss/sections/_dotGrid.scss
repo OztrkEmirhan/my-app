@@ -1,0 +1,16 @@
+/* Normal CSS stilini belirleme */
+.dot-point {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #374151, #1F2937);
+    opacity: 0.5;
+  }
+  
+  /* Grup üstüne gelindiğinde stilini belirleme */
+  .group:hover {
+    .dot-point {
+      background: linear-gradient(to bottom, #4B5563, #FFF);
+    }
+  }
+  
